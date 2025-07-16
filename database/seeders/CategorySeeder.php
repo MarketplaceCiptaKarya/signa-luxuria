@@ -14,20 +14,20 @@ class CategorySeeder extends Seeder
     public function run(): void
     {
         $categories = [
-            'Luxury Watches' => [
-                'en' => ['title' => 'Luxury Watches', 'description' => ''],
-                'cn' => ['title' => '奢侈手表', 'description' => ''],
-                'id' => ['title' => 'Jam Tangan Mewah', 'description' => ''],
+            'Luxury Bracelets' => [
+                'en' => ['title' => 'Luxury Bracelets', 'description' => ''],
+                'cn' => ['title' => '奢华手链', 'description' => ''],
+                'id' => ['title' => 'Gelang Mewah', 'description' => ''],
             ],
-            'Luxury Bags' => [
-                'en' => ['title' => 'Luxury Bags', 'description' => ''],
-                'cn' => ['title' => '奢侈包包', 'description' => ''],
-                'id' => ['title' => 'Tas Mewah', 'description' => ''],
+            'Luxury Necklace' => [
+                'en' => ['title' => 'Luxury Necklace', 'description' => ''],
+                'cn' => ['title' => '奢华项链', 'description' => ''],
+                'id' => ['title' => 'Kalung Mewah', 'description' => ''],
             ],
-            'Luxury Accessories' => [
-                'en' => ['title' => 'Luxury Accessories', 'description' => ''],
-                'cn' => ['title' => '奢侈配件', 'description' => ''],
-                'id' => ['title' => 'Aksesori Mewah', 'description' => ''],
+            'Luxury Earrings' => [
+                'en' => ['title' => 'Luxury Earrings', 'description' => ''],
+                'cn' => ['title' => '奢华耳环', 'description' => ''],
+                'id' => ['title' => 'Anting Mewah', 'description' => ''],
             ],
         ];
 
