@@ -63,12 +63,13 @@ export default function Checkout() {
         if (form.data.save_shipping) {
             saveUserInfo(form.data.shipping);
         }
-        form.post(route(localizedRouteName('products.checkout.session', locale), path), {
-            onSuccess: () => {},
-            onError: (errors) => console.error(errors),
-            preserveScroll: true,
-            preserveState: true,
-        });
+        alert('Payment not implemented yet!');
+        // form.post(route(localizedRouteName('products.checkout.session', locale), path), {
+        //     onSuccess: () => {},
+        //     onError: (errors) => console.error(errors),
+        //     preserveScroll: true,
+        //     preserveState: true,
+        // });
     };
 
     const total = checkoutItems.reduce((sum, item) => sum + parseFloat(item.price) * item.qty, 0);

@@ -21,6 +21,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $this->app->bind(PaymentGateway::class, IpaymuImpl::class);
+        //todo: change to your payment gateway implementation
+        //$this->app->bind(PaymentGateway::class, IpaymuImpl::class);
     }
 }
