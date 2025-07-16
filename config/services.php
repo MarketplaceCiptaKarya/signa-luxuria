@@ -36,8 +36,8 @@ return [
     ],
 
     'ipaymu' => [
-        'va' => env('IPAYMU_VA'),
-        'api_key' => env('IPAYMU_API_KEY'),
+        'va' => env('IPAYMU_VA', ''),
+        'api_key' => env('IPAYMU_API_KEY', ''),
         'base_url' => env('IPAYMU_BASE_URL', 'https://my.ipaymu.com/api/v2'),
     ],
 
