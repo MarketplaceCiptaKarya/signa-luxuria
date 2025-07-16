@@ -16,15 +16,15 @@ export const useWebsiteData = () => {
 
     const carouselData = [
         {
-            image: 'https://fls-9f56b3e7-34dc-42a4-9adf-f70180fad897.laravel.cloud/carousel/carousel-1.jpg',
+            image: 'https://fls-9f678735-133b-41c7-b051-e82a746370de.laravel.cloud/carousel/carousel-1.jpg',
             alt: 'Carousel Image 1',
         },
         {
-            image: 'https://fls-9f56b3e7-34dc-42a4-9adf-f70180fad897.laravel.cloud/carousel/carousel-2.jpg',
+            image: 'https://fls-9f678735-133b-41c7-b051-e82a746370de.laravel.cloud/carousel/carousel-2.jpg',
             alt: 'Carousel Image 2',
         },
         {
-            image: 'https://fls-9f56b3e7-34dc-42a4-9adf-f70180fad897.laravel.cloud/carousel/carousel-3.jpg',
+            image: 'https://fls-9f678735-133b-41c7-b051-e82a746370de.laravel.cloud/carousel/carousel-3.jpg',
             alt: 'Carousel Image 3',
         },
     ];
@@ -34,10 +34,10 @@ export const useWebsiteData = () => {
     const navbarData = {
         logo: {
             url: route(localizedRouteName('index', locale)),
-            title: 'ReVault',
+            title: 'Signa Luxuria',
             img: {
                 src: '/assets/logo.webp',
-                alt: 'ReVault Logo',
+                alt: 'Signa Luxuria Logo',
             },
         },
         menu: [
@@ -53,11 +53,11 @@ export const useWebsiteData = () => {
     };
     const footerData = {
         logo: {
-            title: 'ReVault',
+            title: 'Signa Luxuria',
             url: route(localizedRouteName(`index`, locale)),
             img: {
                 src: '/assets/logo.webp',
-                alt: 'ReVault Logo',
+                alt: 'Signa Luxuria Logo',
             },
         },
         menuItems: [
@@ -106,7 +106,7 @@ export const useWebsiteData = () => {
                 ],
             },
         ],
-        copyright: `© ${new Date().getFullYear()} Revault Luxury. All rights reserved.`,
+        copyright: `© ${new Date().getFullYear()} Signa Luxuria. All rights reserved.`,
         bottomLinks: [
             // { text: 'Privacy Policy', url: '#' },
             // { text: 'Cookie Policy', url: '#' },
