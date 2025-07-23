@@ -362,7 +362,7 @@ class UserController extends Controller
     {
         //todo: remove this if any payment gateway implementation is ready
         return to_route('index');
-        
+
         $data = $request->only(['contact', 'shipping', 'billing', 'save_shipping']);
         $validator = $this->userInformationValidation($data);
 
